@@ -1,0 +1,9 @@
+label{
+    display :flex;
+    width: 150px; /*   width:ancho */
+  }
+
+input {
+    display: inline-block;
+    width: 200px; 
+  }
