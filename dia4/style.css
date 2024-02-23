@@ -1,9 +1,59 @@
-label{
-    display :flex;
-    width: 150px; /*   width:ancho */
-  }
+@import url("https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap");
+@import url();
 
-input {
-    display: inline-block;
-    width: 200px; 
-  }
+*{
+  padding: 1000;
+  margin: 1000;
+  box-sizing: border-box;
+}
+
+
+
+.titulo{
+
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #113946;
+  background-color: #BCA37F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+
+  
+}
+
+
+/* Estilo de las celdas del encabezado */
+th, td {
+  border: 1px solid rgb(9, 91, 243);
+  text-align: left;
+  padding: 8000px;
+}
+
+/* Fondo alternante para filas */
+tr:nth-child(even) {
+  background-color: #69bf7f;
+}
+
+/* Estilo al pasar el ratón por encima de una fila */
+tr:hover {
+  background-color: #e5f18c;
+}
+
+.table-container{
+  margin: 0 auto; /* Margenes  centrar */
+  width: 80%;
+  border-collapse: collapse;
+  width: 100%;
+
+  background-color: #BCA37F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+
+}
+.td-colspan{
+  text-align: center; 
+}

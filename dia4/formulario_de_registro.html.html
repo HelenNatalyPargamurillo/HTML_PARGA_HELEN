@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <title>Formulario de registro - Mi web</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class ="titulo" >Formulario de Registro</h1>
+
+    <form action="" method="GET">
+
+        <table >
+            <div class="table-container"></div>
+
+          
+            <tr>
+                <td><label for="nombre">Nombre:</label></td>
+                <td><input type="text" id="nombre" name="nombre" maxlength="50" required></td>
+            </tr>
+
+           
+            <tr>
+                <td><label for="apellidos">Apellidos:</label></td>
+                <td><input type="text" id="apellidos" name="apellidos" maxlength="50" required></td>
+            </tr>
+
+            
+            <tr>
+                <td><label>Sexo:</label></td>
+                <td>
+                    <input type="radio" id="hombre" name="sexo" value="hombre" required>
+                    <label for="hombre">Hombre</label>
+
+                    <input type="radio" id="mujer" name="sexo" value="mujer" required>
+                    <label for="mujer">Mujer</label>
+                </td>
+            </tr>
+
+        
+            <tr>
+                <td><label for="correo">Correo electronico:</label></td>
+                <td><input type="text" id="correo" name="correo" required></td>
+            </tr>
+            <tr>
+                <td><label for="poblacion">Poblacion:</label></td>
+                <td>
+                    <select id="poblacion" name="poblacion" required>
+                        <option value="bucaramanga">Bucaramanga</option>
+                        <option value="giron">Giron</option>
+                        <option value="floridablanca">Floridablanca</option>
+                        <option value="piedecuesta">Piedecuesta</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Descripcion -->
+            <tr>
+                <td><label for="descripcion">Descripcion:</label></td>
+                <td><textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="infoNovedades" name="infoNovedades" checked>
+                    <label for="infoNovedades">Deseo recibir informacion sobre novedades y ofertas</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required>
+                    <label for="aceptarCondiciones">Declaro haber lei do y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                </td>
+            </tr>
+
+           
+            <tr>
+                <td colspan="2"><input type="submit" value="Enviar"></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
