@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    body {
+        font-family: "Pacifico";
+        color: black;
+        background-color: #EAD7BB;
+    }
+.titulo {
+  color: #113946;
+  background-color: #BCA37F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+#miProyectoDeVida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1em;
+    line-height: 1.4
+    
+}
+
+
+#miProyectoDeVida1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1em; 
+    line-height: 1.4
+  }
+
+  
+#miProyectoDeVida2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    font-size: 1em; 
+    line-height: 1.4
+    
+  }
+
+  .tarjetas{
+    display: flex;
+    gap: 10px;  
+  }
+
+  .tarjeta_meta{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 300px;
+    height: 100px;
+    background: #BCA37F;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 15px;
+    border: 5px solid #113946 ;
+    border-radius: 20px; 
+    width: 250px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+  
+}
+
