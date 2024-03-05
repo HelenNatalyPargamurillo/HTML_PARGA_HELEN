@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Madimi+One&display=swap');
+
+h1{
+    font-size: 2vi;
+    color: #EEEDEB;
+    text-align: center;
+}
+.articulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1vi;
+}
+.bolsos{
+    color: #3C3633;
+    background-color: #E0CCBE;
+    border: 3vi double #747264;
+    border-radius: 6.5vi;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vi;
+}
+.media{
+    width: 15vi;
+    height: 26vi;
+    border-radius: 8vi;
+}
