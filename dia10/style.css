@@ -1,4 +1,4 @@
-body{
+html{
     background-image: url("data/85.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -14,33 +14,205 @@ body{
     width: 15vi;
     height: auto;
     margin-left: 70vi;
+    animation: 9s 12s nube;
+    opacity: 10%;
+
+}
+.nube2{
+  top:2vi ;
+  position: absolute;
+  animation: 8s 5.5s nube;
+  opacity: 0%;
+}
+.lluvia2{
+  opacity: 0%;
+  top:5vi;
+  left: 25vi;
+  position: absolute;
+  animation: 7s 8s lluvia;
+  width: 5vi;
+  
+}
+.flor2{
+  opacity: 0%;
+  top:45vi;
+  left: 25vi;
+  position: absolute;
+  animation: 7s 9s flor;
+  width: 5vi;
+  
 
 }
 
-@keyframes flor2 {
-    from {
-        top: 100px;
-        animation-timing-function: ease-out;
+.num1{
+  opacity: 100%;
+  top:10vi;
+  left: 10vi;
+  position: absolute;
+  animation: 7s 9s flor;
+  width: 1vi;
+
+
+}
+@keyframes nube {
+    0% {
+      opacity: 0%;
+      left: -100%;
+        
+  
       }
     
       25% {
-        top: 50px;
-        animation-timing-function: ease-in;
+        left: 20%;
+        opacity: 100%;
+       
       }
     
       50% {
-        top: 100px;
-        animation-timing-function: ease-out;
+        left: 40%;
+        opacity: 100%;
+
       }
     
       75% {
-        top: 75px;
-        animation-timing-function: ease-in;
+        left: 75%;
+        opacity: 50%;
+        
       }
     
-      to {
-        top: 100px;
+      100% {
+        left: 100%;opacity: 0%;
       }
     
     }
+
+@keyframes flor {
+
+  0% {
+    opacity: 0%;
+    left: 25vi;
+      
+
+    }
+  
+    25% {
+      left: 25vi;
+      opacity: 0%;
+      
+    }
+  
+    50% {
+      left: 25vi;
+      opacity: 0%;
+
+    }
+  
+    75% {
+        left: 25vi;
+        opacity: 50%;
+      
+    }
+  
+    100% {
+      left: 25vi;
+      opacity: 100%;
+    }
+  
+  }
+  @keyframes lluvia {
+    0% {
+      opacity: 100%;
+      top: 10vi;
+        
+  
+      }
+    
+      25% {
+        top: 20vi;
+        opacity: 100%;
+        
+      }
+    
+      50% {
+        top: 40vi;
+        opacity: 100%;
+  
+      }
+    
+      75% {
+          top: 75vi;
+          opacity: 100%;
+        
+      }
+    
+      100% {
+        top: 100vi;
+        opacity: 0%;
+      }
+    
+
+  }
+  @keyframes sol {
+    0% {
+      opacity: 40%;
+      top: 10vi;
+        
+  
+      }
+    
+      25% {
+        top: 50vi;
+        opacity: 100%;
+        
+      }
+    
+      50% {
+        top: 60vi;
+        opacity: 100%;
+  
+      }
+    
+      75% {
+          top: 75vi;
+          opacity: 100%;
+        
+      }
+    
+      100% {
+        top: 100vi;
+        opacity: 0%;
+      }
+    } 
+    @keyframes num1 {
+      0% {
+        opacity: 10%;
+        top: 10vi;
+          
+    
+        }
+      
+        25% {
+          top: 50vi;
+          opacity: 100%;
+          
+        }
+      
+        50% {
+          top: 60vi;
+          opacity: 100%;
+    
+        }
+      
+        75% {
+            top: 75vi;
+            opacity: 100%;
+          
+        }
+      
+        100% {
+          top: 100vi;
+          opacity: 0%;
+        }
+      }
+
     
